@@ -12,9 +12,8 @@ from django.db import models
 #         return self.name
     
 class Crud(models.Model):
-        location = models.CharField(max_length=50)
-        coordinates = models.CharField(max_length=50)
-        image = models.CharField(max_length=200)
-
+    location = models.CharField(max_length=50)
+    coordinates = models.CharField(max_length=50)
+    image = models.CharField(max_length=200)
     def __str__(self) -> str:
         return self.location
