@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'backend_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'stars',
+        'NAME': 'stargazer_api',
         'USER': '',
         'PASSWORD': '',
         'HOST': 'localhost'
