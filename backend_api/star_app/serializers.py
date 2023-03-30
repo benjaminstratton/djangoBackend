@@ -4,4 +4,4 @@ from .models import Crud
 class CrudSerializer(serializers.ModelSerializer):
     class Meta:
         model = Crud
-        fields = ( 'astronomer', 'location', 'coordinates', 'image', 'description' )
+        fields = ( 'id','astronomer', 'location', 'coordinates', 'image', 'description' )
